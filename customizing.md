@@ -1,24 +1,24 @@
-Customizing
+Personnalisation
 ===========
 
-Theme chooser
+Choix du Thème
 -------------
 
-There is a special gimmick `ThemeChooser` that will add a submenu entry to the navigation bar with all available themes. Enable it by adding
+Il existe un gimmick `ThemeChooser` qui ajoutera un sous-menu à la barre de navigation avec touts les thèmes disponibles. L'activer en ajoutant
 
     [gimmick:themechooser](Choose theme)
 
-to the `navigation.md` (or into each page individually).
+au fichier `navigation.md` (ou dans chaque page individuellement).
 
-### Selecting a theme
+### Sélectionner un thème
 
-You can manually set a specific theme that will be used if the ThemeChooser gimmick is not used or set to the default theme:
+Vous pouvez installer manuellement un thème spécifique qui sera utilisé si le gimmick  ThemeChooser n'est pas utilisé ou installé dans le thème par default :
 
     [gimmick:theme](flatly)
 
-This will set the default theme to `flatly`. You can see a list of the theme names in the `ThemeChooser` gimmick or on this page (select `Change theme` in the navbar).
+Cela installera `flatly` comme thème par défaut. Vous pouvez consulter la liste des noms de thème dans le gimmick `ThemeChooser` ou sur cette page (sélectionnez `Change theme` dans la barre de navigation).
 
-To apply the theme globally for all files, put the entry into `navigation.md`. You can also switch the "inverse" mode, which will change colors for some themes (see <http://www.bootswatch.com/> for details)
+Pour appliquer le thème globalement sur chaque fichier, déposer l'entrée dans le fichier  `navigation.md`. Vous pouvez aussi changer le mode "inverse" , qui changera les colors de certains themes (voir <http://www.bootswatch.com/> pour les details)
 
     [gimmick:theme (inverse: true)](flatly)
 
